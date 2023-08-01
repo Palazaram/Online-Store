@@ -1,0 +1,90 @@
+@import "nullstyle.scss";
+.footer {
+  height: 238px;
+  background-color: #437f12;
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+/*----------------------------------*/
+.row {
+  line-height: 24px;
+  &__item {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    padding-top: 40px;
+    color: #fff;
+
+  }
+  &__nav {
+
+  }
+  &__list {
+
+  }
+  &__title {
+    font-weight: 700;
+  }
+  p{
+    width: 175px;
+  }
+  &__item a{
+    color: #fff;
+    text-decoration: underline;
+  }
+  &__phoneNumber{
+
+  }
+  &__item a:hover{
+    text-decoration: none;
+  }
+  .verticalLine{
+    border-left: 0.5px solid rgba(255,255,255, 0.1);
+    height: 144px;
+    margin-top: 40px;
+    margin-right: -80px;
+  }
+  span{
+    display: block;
+  }
+
+}
+/*----------------------------------*/
+.list {
+  &__item {}
+  &__link {}
+}
+/*----------------------------------*/
+.media {
+
+  &__list {
+    display: flex;
+  }
+  &__item {
+    margin-top: 10px;
+  }
+  &__link {}
+  &__img{
+    width: 25px;
+    height: 25px;
+  }
+  &__item:not(:first-child) {
+    margin-left: 10px;
+  }
+}
+/*----------------------------------*/
+
+.lowTitle{
+  margin-left: 1090px;
+}
+.lowTitle a{
+  color: #fff;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.lowTitle a:hover{
+  text-decoration: none;
+}
+/*----------------------------------*/

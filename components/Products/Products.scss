@@ -1,0 +1,104 @@
+@import "nullstyle.scss";
+.products-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) ;
+	grid-gap: 45px;
+	width: 80%;
+	max-width: 1200px;
+	margin: var(--spacing-large) auto;
+	position: relative;
+}
+
+.products-element {
+	//display: flex;
+	position: relative;
+	flex-direction: column;
+	//justify-content: flex-end;
+	padding: 25px 20px;
+	background-color: #fff;
+	box-shadow: var(--box-shadow);
+	border-radius: var(--border-radius);
+	text-align: center;
+	height: 500px;
+	&__name {
+		font-weight: bold;
+		margin-bottom: auto;
+	}
+	&__img {
+		position: absolute;
+		top: 10%;
+		left: 0px;
+		padding-right: 20px;
+		padding-left: 20px;
+		width: 100%;
+		height: 270px;
+		margin-top: var(--spacing-medium);
+		object-fit: contain;
+	}
+	&__price {
+		margin-top: var(--spacing-medium);
+	}
+	&__box {
+		margin-top: var(--spacing-medium);
+	}
+	&__btn {
+		width: 200px;
+		margin-top: var(--spacing-medium);
+		padding: var(--spacing-small) var(--spacing-medium);
+		border: 1px solid #808080;
+		border-radius: var(--border-radius);
+		cursor: pointer;
+		outline: none;
+		background: none;
+		font-family: inherit;
+		font-size: inherit;
+	}
+	&__btn_active {
+		border: 1px solid transparent;
+		background-image: var(--linear-gradient);
+	}
+	.Btn{
+		width: 30px;
+		height: 30px;
+	}
+}
+
+.select__title{
+	font-size: 16px;
+	padding-right: 40px;
+}
+
+.block{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.menu{
+	display: flex;
+}
+
+.products-links{
+	padding-top: 26px;
+	font-size: 16px;
+}
+
+.products-links a{
+	//color: var(--main-color);
+}
+
+.products-links:nth-child(2){
+	padding-left: 20px;
+}
+
+.products-title{
+	text-align: center;
+	font-size: 36px;
+	padding-top: 20px;
+}
+
+.padd{
+	position: absolute;
+	top: 70%;
+	left: 12%;
+	//padding-top: 300px;
+}

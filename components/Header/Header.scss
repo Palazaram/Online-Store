@@ -1,0 +1,242 @@
+@import "nullstyle.scss";
+.header-container {
+	display: flex;
+	height: 50px;
+	padding: var(--spacing-small);
+	//background-color: #437f12;
+}
+.header-counter {
+	margin-left: auto;
+	padding-right: var(--spacing-small);
+	font-weight: bold;
+	cursor: pointer;
+	color: #000;
+}
+.header {
+  width: 100%;
+  //position: relative;
+  //left: 0;
+  //top: 0;
+  z-index: 50;
+  &__container {
+    position: relative;
+    //min-height: 60px;
+    height: 60px;
+    //padding: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__menu {
+
+  }
+  &__button {
+
+  }
+  &__login {
+    
+  }
+ 
+}
+.basket__img{
+	margin-top: -10px;
+}
+
+/*----------------------------------*/
+.menu {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__item {
+    
+  }
+  &__link {
+    font-size: 14px;
+    text-decoration: underline;
+    line-height: 24px;
+  }
+  &__item:not(:last-child){
+    margin: 0 10px 0 0;
+  }
+  &__link:hover {
+    color: green;
+  }
+  &__item:visited {
+    color: green;
+  }
+}
+/*----------------------------------*/
+.knopka {
+  form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+  }
+  input {
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid #7BA7AB;
+    border-radius: 5px;
+    outline: none;
+    background: #F9F0DA;
+    color: #9E9C9C;
+  }
+  button {
+    position: absolute; 
+    top: 0;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: #7BA7AB;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 14px;
+    color: #F9F0DA;
+  }
+}
+/*----------------------------------*/
+.login {
+  //margin-left: -300px;
+  &__list {
+    display: flex;
+  }
+  &__item {
+    
+  }
+  &__link {
+
+  }
+  &__item:not(:last-child) {
+
+  }
+  &__item:hover:nth-child(2) a:hover{
+    color: green;
+  }
+}
+/*----------------------------------*/
+.fa {
+}
+.fa-home {
+}
+.fa-fw {
+}
+/*----------------------------------*/
+.logo {
+  background-color: #fff;
+  &__container {
+    //min-height: 150px;
+    height: 150px;
+  }
+  &__description {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+/*----------------------------------*/
+.description {
+  &__item {
+
+  }
+  &__image {}
+  &__text {
+    width: 108px;
+    font-size: 14px;
+    text-align: center;
+    color: green;
+  }
+  &__logo {
+    &_name {
+      font-size: 36px;
+      color: green;
+      margin-left: -90px;
+    }
+  }
+  &__list {
+    font-size: 18px;
+  }
+  &__icon {
+    
+  }
+  &__phone {
+    
+  }
+  &__phone2{
+    display: inline-block;
+    text-align: right;
+    padding-top: 5px;
+  }
+  &__back_call{
+    font-size: 12px;
+    padding-top: 5px;
+    text-align: right;
+  }
+  &__back_call a{
+    text-decoration: underline;
+  }
+  &__back_call a:hover{
+    text-decoration: none;
+    color: green;
+  }
+
+}
+/*----------------------------------*/
+.fa-ul {
+}
+.list {
+  //list-style: square;
+  &__item {
+    margin-right: 30px;
+  }
+}
+.fa-li {
+  color: green;
+}
+.fa {
+
+}
+.fa-check-square {
+}
+.fa-phone {
+
+}
+/*----------------------------------*/
+.line {
+  &__container {
+    
+  }
+  &__menu {
+    height: 50px;
+    position: relative;
+    display: flex;
+    background-color: #437f12;
+    justify-content: center;
+  }
+}
+/*----------------------------------*/
+._menu {
+  &__item {
+
+  }
+  &__item:nth-child(n+1):nth-child(n-4){
+    padding: 0 30px 0 30px;
+  }
+  &__item a{
+    position: relative;
+    top: 16px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+  }
+  &__item:hover{
+    background-color: #5C8D3A;
+  } 
+}

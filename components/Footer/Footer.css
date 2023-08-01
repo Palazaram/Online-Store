@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.footer {
+  height: 238px;
+  background-color: #437f12;
+}
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/*----------------------------------*/
+.row {
+  line-height: 24px;
+}
+.row__item {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  padding-top: 40px;
+  color: #fff;
+}
+.row__title {
+  font-weight: 700;
+}
+.row p {
+  width: 175px;
+}
+.row__item a {
+  color: #fff;
+  text-decoration: underline;
+}
+.row__item a:hover {
+  text-decoration: none;
+}
+.row .verticalLine {
+  border-left: 0.5px solid rgba(255, 255, 255, 0.1);
+  height: 144px;
+  margin-top: 40px;
+  margin-right: -80px;
+}
+.row span {
+  display: block;
+}
+
+/*----------------------------------*/
+/*----------------------------------*/
+.media__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.media__item {
+  margin-top: 10px;
+}
+.media__img {
+  width: 25px;
+  height: 25px;
+}
+.media__item:not(:first-child) {
+  margin-left: 10px;
+}
+
+/*----------------------------------*/
+.lowTitle {
+  margin-left: 1090px;
+}
+
+.lowTitle a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.lowTitle a:hover {
+  text-decoration: none;
+}
+
+/*----------------------------------*/
